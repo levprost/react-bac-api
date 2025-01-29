@@ -21,9 +21,9 @@ function App() {
     <Route path="/bacs/add" element={<AddBac />} /> 
     <Route path="/bacs/edit/:bac" element={<EditBac />} /> 
 
-    {/* <Route path="/types" element={<Types />} /> 
+ <Route path="/types" element={<Types />} /> 
     <Route path="/types/add" element={<AddType />} /> 
-    <Route path="/types/edit/:type" element={<EditType />} /> */}
+    <Route path="/types/edit/:type" element={<EditType />} /> 
 
     <Route path="*" element={<Home />} /> 
     </Routes> 
